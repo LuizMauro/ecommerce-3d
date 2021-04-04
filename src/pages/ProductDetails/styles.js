@@ -3,7 +3,6 @@ import colors from "../../@styles/colors";
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
   background: ${colors.bg};
 `;
 
@@ -21,7 +20,6 @@ export const InfoColumn = styled.div`
   padding-left: 15px;
   flex: 1;
   max-width: 50%;
-  flex-basis: 50%;
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -79,4 +77,24 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
+`;
+
+export const ImagePreview = styled.img`
+  height: 60px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: ${({ active }) =>
+    active ? `2px solid ${colors.colorButton}` : "none"};
+`;
+
+export const CardPrice = styled.div`
+  height: 50px;
+  padding: 15px;
+  background-color: #f5f5ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;

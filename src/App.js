@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import GlobalStyles from "./@styles/Global";
 import Header from "./components/header";
 import PageDetails from "./pages/ProductDetails";
@@ -9,10 +9,10 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Exclusive Access",
-  headline: "Unlimited Transactions with zero fees",
+  topLine: "Luiz Rocha",
+  headline: "Tênis Addydas Ultimashow",
   description:
-    "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
+    "Saia para correr ou caminhar com o Tênis Addydas Ultimashow! É confeccionado em material que proporciona circulação de ar e frescor para os pés durante duas atividades.",
   buttonLabel: "Get Started",
   imgStart: "",
   img: Image,

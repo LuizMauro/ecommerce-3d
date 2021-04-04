@@ -12,7 +12,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "react-three-fiber": "5.3.10",
+    "three": "0.123.0",
+    "valtio": "0.4.8",
+    "react-colorful": "4.4.4",
+    "drei": "2.2.12"
   },
   "scripts": {
     "start": "react-scripts start",

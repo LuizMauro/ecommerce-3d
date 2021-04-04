@@ -8,7 +8,14 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
  } 
-`;
+ 
+  
+
+
+ 
+ 
+ 
+ `;
 
 export const Container = styled.div`
   z-index: 1;
