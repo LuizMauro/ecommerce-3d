@@ -79,7 +79,12 @@ function Shoe({ colors }) {
 export default function App({ colors }) {
   return (
     <>
-      <Canvas concurrent pixelRatio={[1, 1]} camera={{ position: [0, 0, 2.3] }}>
+      <Canvas
+        style={{ height: 450 }}
+        concurrent
+        pixelRatio={[1, 1]}
+        camera={{ position: [0, 0, 1.9] }}
+      >
         <ambientLight intensity={0.3} />
         <spotLight
           intensity={0.8}
