@@ -12,7 +12,7 @@ export const homeObjOne = {
   topLine: "Luiz Rocha",
   headline: "Tênis Addydas Ultimashow",
   description:
-    "Saia para correr ou caminhar com o Tênis Addydas Ultimashow! É confeccionado em material que proporciona circulação de ar e frescor para os pés durante duas atividades.",
+    "Saia para correr ou caminhar com o Tênis Addydas Ultimashow! É confeccionado em material que proporciona circulação de ar e frescor para os pés durante suas atividades.",
   buttonLabel: "Get Started",
   imgStart: "",
   img: Image,
